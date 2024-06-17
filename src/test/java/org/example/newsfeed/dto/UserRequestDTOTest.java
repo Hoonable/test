@@ -17,7 +17,6 @@ class UserRequestDTOTest {
         String email = "email@emailcom";
 
         //when
-        @Valid
         UserRequestDTO userRequestDTO = new UserRequestDTO(userId, password, name, comment, email);
 
         //then
